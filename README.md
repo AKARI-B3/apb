@@ -5,8 +5,8 @@
 <ul>
 <li><A target="nw" href="http://bitfund.cash/pagebuilder/">DEMO Builder Page</a></li>
 <li><A target="nw" href="https://akari-b3.github.io/fundraiser/">DEMO Fundraiser Page (Hosted for free on github/bitbucket)</a></li>
-<li>Now includes 'Quick Donate' to increase donation ease, DEMO Fundraiser Page (Hosted for free on github/bitbucket) <img src="http://bitfund.cash/quickdonate.gif"></img></li>
-<li>Also includes <b>optional</b> HandCash $handle display</li>
+  <li>Now includes <a target="nw" href="http://bitfund.cash/quickdonate.gif">'Quick Donate' [view gif]</a> to increase donation ease, DEMO Fundraiser Page (Hosted for free on github/bitbucket)</img></li>
+<li>Also includes <b>optional</b> <a href="http://handcash.io">HandCash</a> $handle display!</li>
 <li>Allows us to easily add your page to http://bitfund.cash upon your request.</li>
 
 
@@ -30,7 +30,7 @@
 9. Tell us about the fundpage on reddit.com/u/akari_bit or https://memo.cash/profile/1D9QccNGQY9xspZ8J44CHuo5vThGZrqtzr or email akari.global@protonmail.com so we can put it on http://bitfund.cash<br>
 
 <h2>Launching</h2>
-10. You can update the current goal level and current goal amount, and any of the modified files at any time. It is recommended to update your fundraiser information as your fund proceeds and recommended to share links such as where your fundraisers can view more information about your goals.
+10. You can update the current goal level and current goal amount, and any of the modified files at any time. It is recommended to update your fundraiser information as your fund proceeds and recommended to share links such as where your fundraisers can view more information about your goals. Read the tips for success at <a href="http://bitfund.cash ">http://bitfund.cash</a>
 
 <hr>
 

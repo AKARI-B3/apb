@@ -3,6 +3,7 @@
 <a target="nw" href="http://bitfund.cash/pagebuilder/"><img width="400px" height="400px" src="http://bitfund.cash/pagebuilder/akaripagesbuilderlogo.jpg"></a>
 
 <ul>
+<li><A href="https://gfycat.com/SelfreliantBrokenGalapagosdove">Gif Demo</a></li>
 <li><A target="nw" href="http://bitfund.cash/pagebuilder/">DEMO Builder Page</a></li>
 <li><A target="nw" href="https://akari-b3.github.io/fundraiser/">DEMO Fundraiser Page (Hosted for free on github/bitbucket)</a></li>
   <li>Now includes <a target="nw" href="http://bitfund.cash/quickdonate.gif">'Quick Donate' [view gif]</a> to increase donation ease, specifically created for mobile device users (tablets, smartphone).</li>

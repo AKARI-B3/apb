@@ -1,32 +1,35 @@
-# apb
-<center><b>AKARI-PAGES Builder</b><br>Package that includes: fundraiser page, payment page, and editor!<br>
-<a target="nw" href="http://bitfund.cash/pagebuilder/"><img width="400px" height="400px" src="http://bitfund.cash/pagebuilder/akaripagesbuilderlogo.jpg"></center></a>
+# APB
+<b>AKARI-PAGES Builder (APB)</b><br>Package that includes: fundraiser page, payment page, and editor!<br>
+<a target="nw" href="http://bitfund.cash/pagebuilder/"><img width="400px" height="400px" src="http://bitfund.cash/pagebuilder/akaripagesbuilderlogo.jpg"></a>
 
 <ul>
 <li><A target="nw" href="http://bitfund.cash/pagebuilder/">DEMO Builder Page</a></li>
 <li><A target="nw" href="https://akari-b3.github.io/fundraiser/">DEMO Fundraiser Page (Hosted for free on github/bitbucket)</a></li>
+<li>Now includes 'Quick Donate' to increase donation ease, DEMO Fundraiser Page (Hosted for free on github/bitbucket)</a></li><img src="http://bitfund.cash/quickdonate.gif"></img>
+<li>Also includes <b>optional</b> HandCash $handle display</li>
+<li>Allows us to easily add your page to http://bitfund.cash upon your request.</li>
 
 
-Brief Steps: A. Download APB, B. Modify files (Builder), C. Upload all files to your webhost or github!
+<h3>Brief Steps: A. Download APB, B. Modify files (Builder), C. Upload all files to your webhost or github!</h3>
 
-Instructions for APB (10-steps or less): 
-<h2>Download</h2><br>
+<h1>Instructions for APB (10-steps or less):</h1>
+<h2>Download</h2>
 1. <b><a href="https://github.com/AKARI-B3/apb/archive/master.zip">Download</a></b> the APB Builder master and unzip! <a href="http://bitfund.cash/download_apb.png">http://bitfund.cash/download_apb.png</a> <a href="https://github.com/AKARI-B3/apb">https://github.com/AKARI-B3/apb</a><br>
 2. Browse 'pagebuilder' folder <b>OR</b> visit <a href="http://bitfund.cash/pagebuilder">http://bitfund.cash/pagebuilder</a>
-(If you're building offline, drag the index.html in pagebuilder directory to a new empty browser tab to run the .html)
+(If you're building offline, drag the index.html in pagebuilder directory to a new empty browser tab to run the .html)<br>
 3. Build your page using the free <a href="http://bitfund.cash/pagebuilder">Builder</a> tool, follow instructions!
 
-<h2>Modify then Upload</h2><br>
-4. Create a free github or bitbucket.io account (or use a webhost you own or manage). Need email? Use <a href="http://Protonmail.com">Protonmail</a>! Your username and repository name will be used for your free fund page.
+<h2>Modify then Upload</h2>
+4. Create a free github or bitbucket.io account (or use a webhost you own or manage). Need email? Use <a href="http://Protonmail.com">Protonmail</a>! Your username and repository name will be used for your free fund page.<br>
 5. Done building and replacing? Upload all the files to your webhost or github repository. Don't worry, you can also continue to build and modify once they're uploaded too.
 
-<h2>Finishing Up</h2><br>
-6. Doublecheck you've set your own receiving address correctly by renaming the payment file starting with "addr=" as per the instructions <A href="http://bitfund.cash/check_address.jpg">http://bitfund.cash/check_address.jpg</a>
-7. <a href="http://bitfund.cash/github_settings.jpg">Enable GitHub Pages</a> Settings: On the settings tab, scroll down to where it says GitHub Pages, then choose your repository as master branch and save the new setting. This tells github your page must be at yourusername.github.io/yourfundname 
-8. Wait 10 minutes for the new files to propagate. Now visit your page at yourusername.github.io/fundpage
-9. Tell us about the fundpage on reddit.com/u/akari_bit or https://memo.cash/profile/1D9QccNGQY9xspZ8J44CHuo5vThGZrqtzr or email akari.global@protonmail.com so we can put it on http://bitfund.cash
+<h2>Finishing Up</h2>
+6. Doublecheck you've set your own receiving address correctly by renaming the payment file starting with "addr=" as per the instructions <A href="http://bitfund.cash/check_address.jpg">http://bitfund.cash/check_address.jpg</a><br>
+7. <a href="http://bitfund.cash/github_settings.jpg">Enable GitHub Pages</a> Settings: On the settings tab, scroll down to where it says GitHub Pages, then choose your repository as master branch and save the new setting. This tells github your page must be at yourusername.github.io/yourfundname <br>
+8. Wait 10 minutes for the new files to propagate. Now visit your page at yourusername.github.io/fundpage <br>
+9. Tell us about the fundpage on reddit.com/u/akari_bit or https://memo.cash/profile/1D9QccNGQY9xspZ8J44CHuo5vThGZrqtzr or email akari.global@protonmail.com so we can put it on http://bitfund.cash<br>
 
-<h2>Launching</h2><br>
+<h2>Launching</h2>
 10. You can update the current goal level and current goal amount, and any of the modified files at any time. It is recommended to update your fundraiser information as your fund proceeds and recommended to share links such as where your fundraisers can view more information about your goals.
 
 <hr>

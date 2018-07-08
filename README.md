@@ -5,7 +5,7 @@
 <ul>
 <li><A target="nw" href="http://bitfund.cash/pagebuilder/">DEMO Builder Page</a></li>
 <li><A target="nw" href="https://akari-b3.github.io/fundraiser/">DEMO Fundraiser Page (Hosted for free on github/bitbucket)</a></li>
-<li>Now includes 'Quick Donate' to increase donation ease, DEMO Fundraiser Page (Hosted for free on github/bitbucket)</a></li><img src="http://bitfund.cash/quickdonate.gif"></img>
+<li>Now includes 'Quick Donate' to increase donation ease, DEMO Fundraiser Page (Hosted for free on github/bitbucket) <img src="http://bitfund.cash/quickdonate.gif"></img></li>
 <li>Also includes <b>optional</b> HandCash $handle display</li>
 <li>Allows us to easily add your page to http://bitfund.cash upon your request.</li>
 

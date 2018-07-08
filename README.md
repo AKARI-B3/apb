@@ -10,7 +10,11 @@
 <li>Allows us to easily add your page to http://bitfund.cash upon your request. (See final steps)</li>
 
 
-<h3>Brief Steps: A. Download APB, B. Modify files (Builder), C. Upload all files to your webhost or github!</h3>
+<h3>Brief Steps:<br>
+A. Download <A href="https://github.com/AKARI-B3/apb/archive/master.zip">APB</a><br>
+B. Modify files (<a href="http://bitfund.cash/pagebuilder">Builder</a>)<br>
+C. Decentralize! Upload all your files to <b><i>your own</b></i> webhost or github!<br>
+</h3>
 
 <h1>Instructions for APB (10-steps or less):</h1>
 <h2>Download</h2>

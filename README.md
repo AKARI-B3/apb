@@ -56,6 +56,8 @@ Enjoy your new payment / donate page and fundraising page!
 
 Raise funds for anything using Bitcoin Cash AKARI-PAY Advanced + AKARI-PAGES, and now easily create a fund page using APB.
 
+<h2>AKARI-PAY+PAGES FEATURES & BENEFITS</h2>
+
 AKARI-PAY Advanced has all akaripay features (fully responsive, device friendly, etc) but includes:
 
 * Easily title your self-hosted fund page.
@@ -80,6 +82,7 @@ AKARI-PAGES leverages "AKARI-PAY Advanced" and includes:
 * Describe your fundraiser and its current goal or multiple goals
 * Responsive and multi-device friendly pages increases the payment rates!
 
+<br>
 All AKARI-PAY and AKARI-PAGES, and APB are Free, Open-Source Software (FOSS), the code is fully reviewable, duplicatable, and available for anyone to leverage. If you get stuck or need any help, ask us anything in our <a href="http://webchat.freenode.net/?randomnick=1&channels=%23akari&prompt=1">Dev-Chat</a>!
 
 -----

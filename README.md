@@ -15,7 +15,10 @@
 A. Download <A href="https://github.com/AKARI-B3/apb/archive/master.zip">APB</a><br>
 B. Modify files (<a href="http://bitfund.cash/pagebuilder">Builder</a>)<br>
 C. Decentralize! Upload all your files to <b><i>your own</b></i> webhost or github!<br>
-</h3>
+</h3><br>
+
+View the steps below or run the Step-by-Step APB Guide for Bitcoin Beginners here: <a href="http://agf.earth/guide/apb">http://agf.earth/guide/apb</a><br>
+
 
 <h1>Instructions for APB (10-steps or less):</h1>
 <h2>Download</h2>

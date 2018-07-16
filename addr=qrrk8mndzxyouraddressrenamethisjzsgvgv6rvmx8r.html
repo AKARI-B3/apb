@@ -120,7 +120,16 @@ footer {
     margin-top:50px;
     }
     #copyarea {
-        display: none;
+    display: visible;
+    }
+    div#copyarea div#copybutton button#button.button{
+    display:none;
+    }
+    #copyarea > center:nth-child(1) > i:nth-child(1){
+    display:none;
+    }
+    #qr_area > center:nth-child(1) > i:nth-child(1){
+    display:none;
     }
     .columns .column {
         flex-basis: 100%;
@@ -220,7 +229,7 @@ jQuery('#qr').qrcode({width: 180,height: 180,text: result});
 <b class="button" style="padding:0px;position:relative;bottom:10px;font-family:'Calibri';color:#0e3519;font-size:1.5em">Copy&nbsp;</b><span style="font-family:impact;font-weight:light;font-size:4em;">&#x2398;</span>
 </button>
 </div>
-<br><div style="font-size:0.8em;text-align:center;margin:auto;" id="textbox" value=""></div>
+<br><div style="font-size:0.7em;text-align:center;margin:auto;" id="textbox" value=""></div>
 <script>
 document.getElementById("textbox").textContent = result;
 </script>

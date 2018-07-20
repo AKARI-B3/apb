@@ -809,8 +809,8 @@ document.getElementById("dl2").addEventListener('click', dlCanvas2, false);
 			<div style="width:100%;float:left;">
 			<b>Need a wallet? <a target="nw" href="http://electroncash.org">Electron Cash</a> | <a target="nw" href="http://wallet.bitcoin.com/">Bitcoin.com Wallet</a> | <a target="nw" href="http://handcash.io">HandCash</a></b><br><br>
 				  <b>CashAddr Receiving Address (do not include "bitcoincash:" prefix)</b><br><br>
-				  <textarea style="min-width:290px;" class="smaller" id="cashaddress">qrrk8mndzreplacewithyours70zljzsgvgvmx8r</textarea>				  
-				  <br>&nbsp;<span class="minitext">'front_address.txt' & 'front_donatelink.txt'<br><br> Final step: rename your donate page .html to match info in front_donatelink.txt</span>&nbsp;&nbsp;
+				  <textarea style="min-width:290px;" class="smaller" id="cashaddress" onkeyUp="document.getElementById('paymentfilepreview').innerHTML = 'addr='+this.value+'.html'">qq7sjq4zreplacewithyouraddresshere1265ydnk</textarea>				  
+				  <br>&nbsp;<span class="minitext">'front_address.txt'<br></span>
 			</div>
 
 
@@ -818,7 +818,7 @@ document.getElementById("dl2").addEventListener('click', dlCanvas2, false);
 
 					<div style="float:right;margin:auto;text-align;right;">
 					<input style="display:none;" value="front_address.txt" id="inputFileNameToSaveAsaddress"></input>
-					<button class="savebutton" onclick="saveTextAsFileaddress(),saveTextAsFileaddresslink()">&#10003; Save As...</button>
+					<button class="savebutton" onclick="saveTextAsFileaddress()">&#10003; Save As...</button>
 					</div>
 					
 					<div style="margin-top:20px;">
@@ -826,8 +826,19 @@ document.getElementById("dl2").addEventListener('click', dlCanvas2, false);
 			</div>  
 	
 			<div style="clear:both;"></div>
-			
-			
+
+<hr>
+				<center>
+				<br>
+				<b style="position:relative;top:-15px;color:#850303;">Final Step (activate payment page)</b>
+				<br><br>
+				  <b>On your local disk, rename your payment page file to:</b><br><br>
+				  <b style="background-color:#fff;padding:10px;margin:3px;font-size:0.8em;position:relative;left:-10px;" id="paymentfilepreview">-</b>		
+					<br>&nbsp;<span style="position:relative;top:15px;" class="minitext">(This file must be named correctly for your page to work)<br></span>
+
+				<br><br>
+				</center>
+
 <hr>
 
     
@@ -849,7 +860,6 @@ saveTextAsFilesecondfont(),
 saveTextAsFilebuttonfont(),
 saveTextAsFilebuttonbg(),
 saveTextAsFileaddress(),
-saveTextAsFileaddresslink(),
 saveTextAsFilewhydonate(),
 saveTextAsFilehandcash()
 ">&#10003; Save All...</button>
@@ -988,23 +998,26 @@ saveTextAsFilehandcash()
     downloadLink.click();
 }
 
- function saveTextAsFileaddresslink()
-{
-    var textToSave = 'addr=' + document.getElementById('cashaddress').value + '.html';
-    var textToSaveAsBlob = new Blob([textToSave], {type:"text/plain"});
-    var textToSaveAsURL = window.URL.createObjectURL(textToSaveAsBlob);
-    var fileNameToSaveAs = 'front_donatelink.txt';
- 
-    var downloadLink = document.createElement("a");
-    downloadLink.download = fileNameToSaveAs;
-    downloadLink.innerHTML = "Download File";
-    downloadLink.href = textToSaveAsURL;
-    downloadLink.onclick = destroyClickedElement;
-    downloadLink.style.display = "none";
-    document.body.appendChild(downloadLink);
- 
-    downloadLink.click();
-}
+
+
+
+// function saveTextAsFileaddresslink()
+//{
+//    var textToSave = 'addr=' + document.getElementById('cashaddress').value + '.html';
+//    var textToSaveAsBlob = new Blob([textToSave], {type:"text/plain"});
+//    var textToSaveAsURL = window.URL.createObjectURL(textToSaveAsBlob);
+//    var fileNameToSaveAs = 'front_donatelink.txt';
+// 
+//    var downloadLink = document.createElement("a");
+//    downloadLink.download = fileNameToSaveAs;
+//    downloadLink.innerHTML = "Download File";
+//    downloadLink.href = textToSaveAsURL;
+//    downloadLink.onclick = destroyClickedElement;
+//    downloadLink.style.display = "none";
+//    document.body.appendChild(downloadLink);
+//
+//    downloadLink.click();
+//}
 
  
  

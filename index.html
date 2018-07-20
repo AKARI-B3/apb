@@ -343,18 +343,18 @@ $(document).keyup(function(e) {
 
 <!-- Set your donate page hard-link -->
 <script>
-	$.get("front_donatelink.txt", function(donatelink) {
-	window.donateurl = donatelink;
+	$.get("front_address.txt", function(donatelink) {
+	window.donateurl = 'addr='+donatelink+'.html';
 	$("a#donatepage.button").attr("href", window.donateurl); 
-	$("a#donatehandcash").attr("href", window.donateurl);
+	$("a#donatehandcash").attr("href", window.donateurl);	
     top.document.getElementById('donateiframe').setAttribute("src", window.donateurl);	
 	});
 </script>
 
 
 <script>
-$.get("front_donatelink.txt", function(donatelink) {
-window.donateurliframe = donatelink;
+$.get("front_address.txt", function(donatelink) {
+window.donateurliframe = 'addr='+donatelink+'.html';
 document.getElementById("iframeurl").innerHTML = ('url: ' + window.donateurliframe);
 });
 </script>
